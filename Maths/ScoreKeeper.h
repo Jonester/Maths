@@ -13,4 +13,6 @@
 @property (nonatomic) NSInteger right;
 @property (nonatomic) NSInteger wrong;
 
+-(float)scoreKeep;
+
 @end

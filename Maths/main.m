@@ -33,7 +33,7 @@ int main(int argc, const char * argv[]) {
                 NSLog(@"That is incorrect. The correct answer is %ld. Better luck next time.", addition.answer);
                 score.wrong++;
             }
-            NSLog(@"Score: Right: %ld  Wrong: %ld  Score: %.2f%%", score.right, score.wrong, 100*((float) score.right / (score.right + score.wrong)));
+            NSLog(@"Score: Right: %ld  Wrong: %ld  Score: %.2f%%", score.right, score.wrong, score.scoreKeep);
         }
     }
     return 0;

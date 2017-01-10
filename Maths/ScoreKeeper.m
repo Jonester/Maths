@@ -7,7 +7,12 @@
 //
 
 #import "ScoreKeeper.h"
+#import "AdditionQuestion.h"
 
 @implementation ScoreKeeper
+
+-(float)scoreKeep {
+    return 100*((float) self.right / (self.right + self.wrong));
+}
 
 @end
